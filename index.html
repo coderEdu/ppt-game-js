@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra | Papel | Tijera</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header><h1>PIEDRA, PAPEL O TIJERA</h1></header>
+    
+    <div class="registro" id="registro">
+        <h2>Por favor, ingrese su nombre para comenzar el juego.</h2>
+        <input type="text" placeholder="Ingrese su nombre aquí" id="nom_reg" class="txt_reg">
+        <input type="button" value="Ingresar" id="validar" class="btn_reg">
+    </div>
+
+    <div class="juego" id="juego">   
+        <div class="container" id="container">
+            <h2 id="fallo"></h2>
+            <div class="versus">
+                <h2 id="nom_j">Eduardo</h2>
+                <img src="img/versus.png">
+                <h2>Compu</h2>
+            </div>
+            <div class="jugador">
+                <img class="img_flip_j" id="jugador" src="img/papel.png">
+            </div>
+            <div class="compu">
+                <img class="img" id="compu" src="img/papel.png">
+            </div>       
+        </div>
+        <div class="cont_boton">
+            <button class="boton" id="boton" onclick="jugar();">Jugar</button>
+        </div>  
+        <div class="opciones" id="op">
+            <div class="fondo_imgs">
+                <h4 class="fondoTitsMins">Elije tu figura y clickea 'jugar'.</h4>
+                <section class="cajas">
+                    <img class="min" id="pie" src="img/piedra.png">
+                </section>
+                <section class="cajas">
+                    <img class="min" id="pap" src="img/papel.png">
+                </section>
+                <section class="cajas">
+                    <img class="min" id="tij" src="img/tijera.png">
+                </section>
+            </div>
+            <div class="puntaje">   <!--Estoy laburando acá-->
+                <h4 class="fondoTitsMins" id="titulo">PUNTAJES</h4>
+                <p id="pts_jug">Jugador</p>
+                <p id="pts_comp">Compu</p>
+            </div>          
+        </div>
+    </div> 
+    
+    <!--Panel de resultados-->
+    <div id="panel" class="container_panel">
+        <div class="puntaje_panel">   <!--Estoy laburando acá-->
+            <h4 class="fondoTitsMins" id="titulo">ESTOS SON LOS RESULTADOS</h4>
+            <p id="pts_jug" class="titulos_pts">Jugador</p>
+            <p id="pts_comp" class="titulos_pts">Compu</p>
+            <h2 class="f" id="f"></h2>
+            <button class="boton_panel" id="btn">Volver</button>
+        </div>          
+    </div>
+</body>
+</html>

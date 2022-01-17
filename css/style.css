@@ -1,0 +1,238 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: burlywood;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+header h1 {
+    padding: 30px;
+    margin: 0px;
+}
+
+.juego {
+    visibility: hidden;
+}
+
+.registro {
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.registro h2 {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.txt_reg {
+    height: 20px;
+    font-size: 12pt;
+    color: rgb(61, 63, 61);
+    text-align: center;
+    background-color: rgb(247, 237, 205);
+    margin: auto;
+}
+
+.btn_reg {
+    width: 150px;
+    height: 30px;
+    background-color: #222222;
+    color: white;
+    font-size: 12pt;
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+}
+
+.boton {
+    width: 100%;
+    height: 60px;
+    background-color: #222222;
+    color: white;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+.container {
+    width: 550px;
+    padding-top: 5px;
+    margin: auto;
+    position: relative;
+}
+
+#fallo {
+    width: 550px;
+    height: 50px;
+    position: relative;
+    background-color: cadetblue;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.jugador {
+    float: left;
+}
+
+.img_flip_j {
+    width: 180px;
+    height: 180px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.compu {
+    float: right;
+}
+
+.cont_boton {
+    position: relative;
+    padding-top: 210px;
+    width: 550px;
+    margin: auto;
+}
+
+.versus {
+    position: relative;
+    width: 500px;
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.versus img {
+    width: 33%;
+    height: 64px;
+}
+
+#nom_j {
+    width: 33%;
+    float: left;
+}
+
+.versus h2 {
+    width: 33%;
+    float: right;
+}
+
+.opciones {
+    width: 550px;
+    padding-top: 25px;
+    position: relative;
+    margin: auto;
+}
+
+.min {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin: auto;
+}
+
+.fondo_imgs {
+    width: 270px;
+    height: 160px;
+    background-color: rgb(230, 164, 79);
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fondo_imgs h4 {
+    padding-top: 12px;
+}
+
+.cajas {
+    width: 33%;
+    float: left;
+}
+
+.puntaje {
+    width: 270px;
+    height: 160px;
+    background-color: rgb(231, 164, 79);
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.puntaje p {
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: bolder;
+}
+
+#titulo {
+    padding-top: 12px;
+}
+
+.fondoTitsMins {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(190, 190, 190);
+}
+
+
+/* para el panel de resultados */
+.container_panel {
+    width: 550px;
+    padding-top: 0px;
+    margin: auto;
+    position: relative;
+    visibility: hidden;
+}
+
+.puntaje_panel {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(231, 164, 79);
+    float: right;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.boton_panel {
+    width: 100%;
+    height: 60px;
+    background-color: #222222;
+    color: white;
+    font-size: 14pt;
+    border-radius: 5px;
+    margin-top: 38px;
+}
+
+.f {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    padding-bottom: 0px;
+    font-size: 20pt;
+    color: navy;
+}
+
+.titulos_pts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: bolder;
+}
