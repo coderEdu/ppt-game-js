@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -36,21 +36,36 @@ header h1 {
     position: relative;
 }
 
+.reg-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .txt_reg {
+    display: flex;
     height: 20px;
     font-size: 12pt;
     color: rgb(61, 63, 61);
     text-align: center;
     background-color: rgb(247, 237, 205);
-    margin: auto;
+    border-color: #2b2b2b;
+    padding: 5px 10px;
+    margin-right: 8px;
+    margin-top: 1px;
+    border-radius: 5px;
 }
 
 .btn_reg {
-    width: 150px;
-    height: 30px;
-    background-color: #222222;
+    display: flex;
+    width: auto;
+    background-color: #2c2ff1;
+    border-color: #5e61f1;
     color: white;
     font-size: 12pt;
+    padding: 6px 14px;
+    border-radius: 5px;
 }
 
 .img {
@@ -65,6 +80,7 @@ header h1 {
     color: white;
     font-size: 14pt;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .container {
@@ -78,15 +94,22 @@ header h1 {
     width: 550px;
     height: 50px;
     position: relative;
-    background-color: cadetblue;
+    background-color: rgb(116, 240, 245);
     padding-top: 20px;
-    margin-bottom: 25px;
     text-align: center;
     border-radius: 5px;
+    user-select: none;
+}
+
+.players-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .jugador {
-    float: left;
+    display: flex;
 }
 
 .img_flip_j {
@@ -97,44 +120,44 @@ header h1 {
 }
 
 .compu {
-    float: right;
-}
-
-.cont_boton {
-    position: relative;
-    padding-top: 210px;
-    width: 550px;
-    margin: auto;
+    display: flex;
 }
 
 .versus {
     position: relative;
-    width: 500px;
-    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
     margin: auto;
     text-align: center;
 }
 
-.versus img {
+.versus-nom-jugs {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 33%;
+}
+
+.versus img {
+    display: flex;
     height: 64px;
 }
 
-#nom_j {
-    width: 33%;
-    float: left;
-}
 
-.versus h2 {
-    width: 33%;
-    float: right;
+.versus-nom-jug h2 {
+    display: flex;
+    text-align: center;
 }
 
 .opciones {
     width: 550px;
     padding-top: 25px;
-    position: relative;
     margin: auto;
+    margin-top: 18px;
+    position: relative;
 }
 
 .min {
@@ -190,14 +213,14 @@ header h1 {
     width: 100%;
     height: 30px;
     background-color: rgb(68, 68, 68);
-    color: rgb(190, 190, 190);
+    color: rgb(255, 255, 255);
 }
 
 
 /* para el panel de resultados */
 .container_panel {
     width: 550px;
-    padding-top: 0px;
+    padding-top: 20px;
     margin: auto;
     position: relative;
     visibility: hidden;
@@ -220,7 +243,7 @@ header h1 {
     color: white;
     font-size: 14pt;
     border-radius: 5px;
-    margin-top: 38px;
+    margin-top: 20px;
 }
 
 .f {

@@ -139,24 +139,30 @@ $(document).ready(function() {
     $("#pap").click(function() {
         eleccion="papel";
         $("#pap").css("background-color","rgb(255, 187, 84)");
+        $("#pap").css("border-radius","50px");
         $("#pie").css("background-color","rgb(230, 164, 79)");
         $("#tij").css("background-color","rgb(230, 164, 79)");
+        $("#jugador").attr("src","img/papel.png");
         $("#boton").removeAttr("disabled");
     });
 
     $("#pie").click(function() {
         eleccion="piedra";
         $("#pie").css("background-color","rgb(255, 187, 84)");
+        $("#pie").css("border-radius","50px");
         $("#pap").css("background-color","rgb(230, 164, 79)");
         $("#tij").css("background-color","rgb(230, 164, 79)");
+        $("#jugador").attr("src","img/piedra.png");
         $("#boton").removeAttr("disabled");
     });
 
     $("#tij").click(function() {
         eleccion="tijera";
         $("#tij").css("background-color","rgb(255, 187, 84)");
+        $("#tij").css("border-radius","50px");
         $("#pap").css("background-color","rgb(230, 164, 79)");
         $("#pie").css("background-color","rgb(230, 164, 79)");
+        $("#jugador").attr("src","img/tijera.png");
         $("#boton").removeAttr("disabled");
     });  
     
